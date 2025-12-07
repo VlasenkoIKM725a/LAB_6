@@ -1,0 +1,99 @@
+# Скомпилированные файлы и объектники
+###################################
+*.o
+*.obj
+*.ko
+*.mod
+*.elf
+*.i
+*.s
+*.map
+
+# Исполняемые файлы
+###################################
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Библиотеки
+###################################
+# Статические библиотеки
+*.lib
+*.a
+
+# Динамические библиотеки (в Windows)
+*.exp
+*.ilk
+*.pdb
+*.pyd
+
+# Файлы бэкапа и временные файлы
+###################################
+*~
+*.bak
+*.swp
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Специфические файлы IDE и инструментов сборки
+
+# CMake
+###################################
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_CPack_Packages/
+
+# Visual Studio / VS Code
+###################################
+# VS Code
+.vs
+.vs/
+.vscode/
+# Visual Studio
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+*.vcxproj.user
+*.suo
+*.sln.docstates
+*.user
+*.ncb
+*.aps
+*.tlog
+*.log
+*.plg
+*.bak
+*.opensdf
+*.sdf
+ipch/
+*.VC.db
+
+# Xcode (macOS)
+###################################
+# Файлы проекта
+.xcuserdatad/
+.xcuserstate
+# Продукты сборки
+build/
+DerivedData/
+
+# Qt Creator / Qt
+###################################
+# Файлы проекта
+*.pro.user
+*.qbs.user
+# Продукты сборки (зависят от конфигурации, но обычно это)
+debug/
+release/
+obj/
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
